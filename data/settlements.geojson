@@ -1,0 +1,581 @@
+{
+  "type": "FeatureCollection",
+  "name": "settlements",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 10,
+        "nev": "Pécs",
+        "ksh_kod": "19415",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 16277,
+        "nepesseg_2018": 144188,
+        "lakasok_2018": 72843,
+        "nepsuruseg_2018": 885.84
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[18.228078156355895, 46.076320122227422]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 45,
+        "nev": "Szekszárd",
+        "ksh_kod": "22761",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 9628,
+        "nepesseg_2018": 32156,
+        "lakasok_2018": 15280,
+        "nepsuruseg_2018": 333.98
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[18.701665695217404, 46.348487150721738]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 56,
+        "nev": "Kaposvár",
+        "ksh_kod": "20473",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 11359,
+        "nepesseg_2018": 61920,
+        "lakasok_2018": 29254,
+        "nepsuruseg_2018": 545.12
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[17.788691141365518, 46.356466448851734]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 60,
+        "nev": "Eger",
+        "ksh_kod": "20491",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 9221,
+        "nepesseg_2018": 53436,
+        "lakasok_2018": 26454,
+        "nepsuruseg_2018": 579.5
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[20.374364021600517, 47.898990481319935]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 62,
+        "nev": "Debrecen",
+        "ksh_kod": "15130",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 46166,
+        "nepesseg_2018": 202214,
+        "lakasok_2018": 96295,
+        "nepsuruseg_2018": 438.01
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[21.625977335236517, 47.531402770399119]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 74,
+        "nev": "Szeged",
+        "ksh_kod": "33367",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 28099,
+        "nepesseg_2018": 161122,
+        "lakasok_2018": 81250,
+        "nepsuruseg_2018": 573.41
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[20.148604869209038, 46.254632313957586]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 94,
+        "nev": "Kecskemét",
+        "ksh_kod": "26684",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 32257,
+        "nepesseg_2018": 110638,
+        "lakasok_2018": 50588,
+        "nepsuruseg_2018": 342.99
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.692814222149845, 46.908077382193262]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 96,
+        "nev": "Békéscsaba",
+        "ksh_kod": "15200",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 19393,
+        "nepesseg_2018": 59357,
+        "lakasok_2018": 29360,
+        "nepsuruseg_2018": 306.07
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[21.086693787115379, 46.684981632523005]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 104,
+        "nev": "Miskolc",
+        "ksh_kod": "30456",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 23667,
+        "nepesseg_2018": 155650,
+        "lakasok_2018": 76807,
+        "nepsuruseg_2018": 657.67
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[20.790212667463273, 48.103154201511842]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 105,
+        "nev": "Győr",
+        "ksh_kod": "25584",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 17462,
+        "nepesseg_2018": 130094,
+        "lakasok_2018": 60252,
+        "nepsuruseg_2018": 745.01
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[17.63467933194331, 47.687606233580318]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 106,
+        "nev": "Nyíregyháza",
+        "ksh_kod": "17206",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 27454,
+        "nepesseg_2018": 117121,
+        "lakasok_2018": 52110,
+        "nepsuruseg_2018": 426.61
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[21.716795827763583, 47.955784196067597]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 115,
+        "nev": "Székesfehérvár",
+        "ksh_kod": "14827",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 17089,
+        "nepesseg_2018": 97382,
+        "lakasok_2018": 45354,
+        "nepsuruseg_2018": 569.85
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[18.410810713178812, 47.191015323069628]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 200,
+        "nev": "Zalaegerszeg",
+        "ksh_kod": "32054",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 10246,
+        "nepesseg_2018": 57780,
+        "lakasok_2018": 26082,
+        "nepsuruseg_2018": 563.93
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[16.845632355131265, 46.841576081968263]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 324,
+        "nev": "Salgótarján",
+        "ksh_kod": "25788",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 9797,
+        "nepesseg_2018": 34124,
+        "lakasok_2018": 18032,
+        "nepsuruseg_2018": 348.31
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.800560886130793, 48.096068473252572]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 794,
+        "nev": "Tatabánya",
+        "ksh_kod": "18157",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 9142,
+        "nepesseg_2018": 65633,
+        "lakasok_2018": 30776,
+        "nepsuruseg_2018": 717.93
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[18.398029108769258, 47.583777272501017]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 1233,
+        "nev": "Veszprém",
+        "ksh_kod": "11767",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 12690,
+        "nepesseg_2018": 59754,
+        "lakasok_2018": 26809,
+        "nepsuruseg_2018": 470.87
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[17.911600696075009, 47.091630983027386]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3131,
+        "nev": "Szombathely",
+        "ksh_kod": "03009",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 9750,
+        "nepesseg_2018": 77984,
+        "lakasok_2018": 34904,
+        "nepsuruseg_2018": 799.84
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[16.618761867721464, 47.229113877339486]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3135,
+        "nev": "Szolnok",
+        "ksh_kod": "27854",
+        "jogallas": "megyeszékhely, megyei jogú város",
+        "terulet_ha_2018": 18724,
+        "nepesseg_2018": 71521,
+        "lakasok_2018": 34763,
+        "nepsuruseg_2018": 381.98
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[20.194681878372446, 47.175456855573202]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3136,
+        "nev": "XV. kerület",
+        "ksh_kod": "11314",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 2694,
+        "nepesseg_2018": 79966,
+        "lakasok_2018": 37322,
+        "nepsuruseg_2018": 2968.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.138206220241472, 47.558929487944333]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3137,
+        "nev": "XVI. kerület",
+        "ksh_kod": "08208",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 3351,
+        "nepesseg_2018": 74239,
+        "lakasok_2018": 31363,
+        "nepsuruseg_2018": 2215.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.20436977733781, 47.51831108953516]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3138,
+        "nev": "XVII. kerület",
+        "ksh_kod": "02112",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 5482,
+        "nepesseg_2018": 87585,
+        "lakasok_2018": 33507,
+        "nepsuruseg_2018": 1598.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.269405340802813, 47.475829388925582]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3139,
+        "nev": "XVIII. kerület",
+        "ksh_kod": "29285",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 3860,
+        "nepesseg_2018": 101893,
+        "lakasok_2018": 44167,
+        "nepsuruseg_2018": 2640.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.201863691927095, 47.430328469594819]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3140,
+        "nev": "XX. kerület",
+        "ksh_kod": "06026",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 1219,
+        "nepesseg_2018": 65681,
+        "lakasok_2018": 31143,
+        "nepsuruseg_2018": 5388.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.120919867195752, 47.433395736931104]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3141,
+        "nev": "XXI. kerület",
+        "ksh_kod": "13189",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 2575,
+        "nepesseg_2018": 76182,
+        "lakasok_2018": 33384,
+        "nepsuruseg_2018": 2959.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.070373386498915, 47.42562055234071]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3142,
+        "nev": "XXIII. kerület",
+        "ksh_kod": "34139",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 4077,
+        "nepesseg_2018": 22897,
+        "lakasok_2018": 8734,
+        "nepsuruseg_2018": 562.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.144156728264036, 47.389404367267829]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3143,
+        "nev": "IV. kerület",
+        "ksh_kod": "05467",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 1882,
+        "nepesseg_2018": 100694,
+        "lakasok_2018": 47241,
+        "nepsuruseg_2018": 5350.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.095506651070124, 47.576168220763627]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3144,
+        "nev": "VI. kerület",
+        "ksh_kod": "16586",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 238,
+        "nepesseg_2018": 38486,
+        "lakasok_2018": 28035,
+        "nepsuruseg_2018": 16171.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.065322085387969, 47.509493959099316]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3145,
+        "nev": "VII. kerület",
+        "ksh_kod": "29744",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 209,
+        "nepesseg_2018": 52607,
+        "lakasok_2018": 37023,
+        "nepsuruseg_2018": 25171.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.075152213186776, 47.502199373968196]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3146,
+        "nev": "VIII. kerület",
+        "ksh_kod": "25405",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 685,
+        "nepesseg_2018": 76446,
+        "lakasok_2018": 45393,
+        "nepsuruseg_2018": 11160.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.087339156820956, 47.490594791941518]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3147,
+        "nev": "X. kerület",
+        "ksh_kod": "10700",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 3249,
+        "nepesseg_2018": 77579,
+        "lakasok_2018": 38830,
+        "nepsuruseg_2018": 2388.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.156492898456957, 47.482234804255967]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3148,
+        "nev": "XII. kerület",
+        "ksh_kod": "24697",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 2667,
+        "nepesseg_2018": 57685,
+        "lakasok_2018": 33565,
+        "nepsuruseg_2018": 2163.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[18.985590405429772, 47.500212726192544]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3149,
+        "nev": "XIII. kerület",
+        "ksh_kod": "24299",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 1344,
+        "nepesseg_2018": 120185,
+        "lakasok_2018": 73910,
+        "nepsuruseg_2018": 8942.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.070614100161826, 47.533497672123353]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3150,
+        "nev": "XIV. kerület",
+        "ksh_kod": "16337",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 1813,
+        "nepesseg_2018": 124483,
+        "lakasok_2018": 73107,
+        "nepsuruseg_2018": 6866.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.113855862554999, 47.518135040534773]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3151,
+        "nev": "XIX. kerület",
+        "ksh_kod": "04011",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 938,
+        "nepesseg_2018": 59847,
+        "lakasok_2018": 27354,
+        "nepsuruseg_2018": 6380.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.144118514128607, 47.449332377976219]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3152,
+        "nev": "XI. kerület",
+        "ksh_kod": "14216",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 3349,
+        "nepesseg_2018": 147592,
+        "lakasok_2018": 79487,
+        "nepsuruseg_2018": 4407.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.027520030574745, 47.467214489280622]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3153,
+        "nev": "XXII. kerület",
+        "ksh_kod": "10214",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 3425,
+        "nepesseg_2018": 54773,
+        "lakasok_2018": 22953,
+        "nepsuruseg_2018": 1599.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.010825026024541, 47.411789951841726]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3154,
+        "nev": "I. kerület",
+        "ksh_kod": "09566",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 341,
+        "nepesseg_2018": 25078,
+        "lakasok_2018": 17024,
+        "nepsuruseg_2018": 7354.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.035141817395406, 47.499162207566805]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3155,
+        "nev": "II. kerület",
+        "ksh_kod": "03179",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 3634,
+        "nepesseg_2018": 89729,
+        "lakasok_2018": 48992,
+        "nepsuruseg_2018": 2469.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[18.982634266202894, 47.538886428275177]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3156,
+        "nev": "III. kerület",
+        "ksh_kod": "18069",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 3970,
+        "nepesseg_2018": 130877,
+        "lakasok_2018": 63198,
+        "nepsuruseg_2018": 3297.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.036778171994118, 47.567610222560099]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3157,
+        "nev": "IX. kerület",
+        "ksh_kod": "29586",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 1253,
+        "nepesseg_2018": 59427,
+        "lakasok_2018": 40649,
+        "nepsuruseg_2018": 4743.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.090355247718769, 47.465355392369752]] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "fid": 3158,
+        "nev": "V. kerület",
+        "ksh_kod": "13392",
+        "jogallas": "fővárosi kerület",
+        "terulet_ha_2018": 259,
+        "nepesseg_2018": 25803,
+        "lakasok_2018": 19774,
+        "nepsuruseg_2018": 9963.0
+      },
+      "geometry": { "type": "MultiPoint", "coordinates": [[19.050547517157245, 47.499944333064825]] }
+    }
+  ]
+}
