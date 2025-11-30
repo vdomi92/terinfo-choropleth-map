@@ -1,5 +1,5 @@
 const loadSettlements = async (map, layerControl, overlayMaps) => {
-  return fetch('/src/data/settlements.geojson')
+  return fetch('data/settlements.geojson')
     .then((response) => response.json())
     .then((geojsonData) => {
       const features = geojsonData.features;
