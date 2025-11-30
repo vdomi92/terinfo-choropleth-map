@@ -5,83 +5,49 @@
 Ez a projekt egy interaktív webes térképi alkalmazás, amely Leaflet.js segítségével jeleníti meg Magyarország megyéit és megyeszékhelyeit.
 A cél a népsűrűség vizuális összehasonlítása és az egyes térbeli egységek részletes adatainak megjelenítése.
 
-A térkép támogatja:
-
-Choropleth megjelenítés – a megyék színezése népsűrűség szerint
-
-Megyeszékhelyek pontszerű jelölése – kékes átmenettel, népsűrűség alapján
-
-Külön-külön kapcsolható rétegek (megyék, települések/megyeszékhelyek)
-
-Rétegekhez kötött dinamikus jelmagyarázat
-
-Részletes popup információk minden megyére és megyeszékhelyre
-
-Több választható alaptérkép (OpenStreetMap, CartoDB Positron)
-
 🗂 Felhasznált adatok
 
 Az alkalmazás a következő forrásokból származó adatokra épül:
 
 Magyarország megyéi – poligonok (QGIS-ből exportált counties.geojson)
-
 Települési szintű adatok – megyeszékhelyek és fővárosi kerületek (settlements.geojson)
-
 Népesség, népsűrűség, terület – KSH adatok alapján összefésülve
-
 A GeoJSON állományok kézzel előkészítettek, QGIS segítségével tisztítottak és kiegészítettek.
 
 🧭 Fő funkciók
-🔶 Megyék (choropleth)
 
-Poligonok népsűrűség-alapú színskálával
+Kétféle téradat elem. Poligonok és pontok.
+Külön kapcsolható rétegek és hozzájuk tartozó dinamikus jelmagyarázat.
+Mindkét réteg népsűrűség alapű saját színskálával rendelkezik.
 
-Popup:
+🔶 Megyék (poligonok)
 
-Megye neve
-
-Megyeszékhely
-
-Terület (km²)
-
-Népesség
-
-Népsűrűség
-
-Külön jelmagyarázat (legend), ami csak akkor jelenik meg, ha a réteg be van kapcsolva
+Popup info:
+-Megye neve
+-Megyeszékhely
+-Terület (km²)
+-Népesség
+-Népsűrűség
 
 🔷 Megyeszékhelyek (pontok)
 
-Kék színskála népsűrűség szerint
+Budapest kerületi adatok aggregálva külön Budapest markerbe
 
-Budapest kerületi adatok aggregálva külön markerbe
-
-Popup:
-
-Terület
-
-Népesség
-
-Lakások száma
-
-Népsűrűség
-
-Külön kapcsolható réteg + külön legenda
+Popup info:
+-Terület
+-Népesség
+-Lakások száma
+-Népsűrűség
 
 🗺 Alaptérképek
 
-OpenStreetMap
+Kétféle választható alaptérkép.
 
-CartoDB Positron (világos, letisztult)
+-OpenStreetMap
+-CartoDB Positron (világos, letisztult)
 
 🛠 Technológiák
 
-Leaflet.js
-
-GeoJSON
-
-JavaScript modules (ES6 import/export)
-
-QGIS az adatelőkészítéshez
-
-HTML5 + CSS3
+-Leaflet.js
+-QGIS az adatelőkészítéshez, GeoJSON generáláshoz
+-HTML5 + CSS3 + JavaScript

@@ -69,6 +69,7 @@ const loadSettlements = async (map, layerControl, overlayMaps) => {
           const areaKm = feature.properties.terulet_ha_2018 * 0.01;
           const population = feature.properties.nepesseg_2018;
           const density = feature.properties.nepsuruseg_2018;
+          const flats = feature.properties.lakasok_2018;
 
           const popupHtml = `
               <div style="font-family: sans-serif; font-size: 13px;">
@@ -76,8 +77,9 @@ const loadSettlements = async (map, layerControl, overlayMaps) => {
                 <table style="border-collapse: collapse;">
                   <tr><td><b>Terület:</b></td><td>${areaKm.toFixed(2)} km²</td></tr>
                   <tr><td><b>Népesség:</b></td><td>${population} fő</td></tr>
+                  <tr><td><b>Lakások:</b></td><td>${flats} db</td></tr>
                   <tr><td><b>Népsűrűség:</b></td><td>${density} fő/km²</td></tr>
-                  <tr><td><b>Év:</b></td><td>2018</td></tr>
+                  
                 </table>
               </div>
             `;
