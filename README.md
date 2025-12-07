@@ -1,11 +1,11 @@
 # Térinformatika 2026 - Magyarország megyéinek népsűrűsége
 
-** Interaktív choropleth térkép Leaflet-ben – Magyarország megyéi és megyeszékhelyei**
+**Interaktív choropleth térkép Leaflet-ben – Magyarország megyéi és megyeszékhelyei**
 
 Ez a projekt egy interaktív webes térképi alkalmazás, amely Leaflet.js segítségével jeleníti meg Magyarország megyéit és megyeszékhelyeit.
 A cél a népsűrűség vizuális összehasonlítása és az egyes térbeli egységek részletes adatainak megjelenítése.
 
-** Felhasznált adatok**
+**Felhasznált adatok**
 
 Az alkalmazás a következő forrásokból származó adatokra épül:
 
@@ -14,13 +14,13 @@ Települési szintű adatok – megyeszékhelyek és fővárosi kerületek (sett
 Népesség, népsűrűség, terület – KSH adatok alapján összefésülve
 A GeoJSON állományok kézzel előkészítettek, QGIS segítségével tisztítottak és kiegészítettek.
 
-** Fő funkciók**
+**Fő funkciók**
 
 Kétféle téradat elem. Poligonok és pontok.
 Külön kapcsolható rétegek és hozzájuk tartozó dinamikus jelmagyarázat.
 Mindkét réteg népsűrűség alapű saját színskálával rendelkezik.
 
-** Megyék (poligonok)**
+**Megyék (poligonok)**
 
 Popup info:
 
@@ -32,7 +32,7 @@ Popup info:
 <li>Népsűrűség</li>
 </ul>
 
-** Megyeszékhelyek (pontok)**
+**Megyeszékhelyek (pontok)**
 
 Budapest kerületi adatok aggregálva külön Budapest markerbe
 
@@ -45,7 +45,7 @@ Popup info:
 <li>Népsűrűség</li>
 </ul>
 
-** Alaptérképek**
+**Alaptérképek**
 
 Kétféle választható alaptérkép.
 
@@ -54,7 +54,7 @@ Kétféle választható alaptérkép.
 <li>CartoDB Positron</li>
 </ul>
 
-** Technológiák**
+**Technológiák**
 
 <ul>
 <li>Leaflet.js</li>
